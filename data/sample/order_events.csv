@@ -1,0 +1,8 @@
+event_id,order_id,customer_id,event_ts,status,quantity,unit_price,source_file
+EV001,O1001,C001,2026-10-24T08:00:00Z,placed,2,19.99,orders_day1.csv
+EV002,O1001,C001,2026-10-25T11:00:00Z,shipped,2,19.99,orders_day1.csv
+EV003,O1002,C002,2026-10-23T14:30:00Z,delivered,1,120.00,orders_day2.csv
+EV004,O1003,C003,2026-10-26T12:00:00Z,cancelled,1,49.50,orders_day2.csv
+EV004,O1003,C003,2026-10-26T12:01:00Z,shipped,1,49.50,orders_day2.csv
+EV005,O1004,C999,2026-10-26T13:00:00Z,placed,1,5.00,orders_day2.csv
+EV006,O1005,C001,2026-10-26T13:30:00Z,placed,0,5.00,orders_day2.csv

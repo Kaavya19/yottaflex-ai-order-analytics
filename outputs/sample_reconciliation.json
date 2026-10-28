@@ -1,0 +1,60 @@
+{
+  "latest_run": {
+    "run_id": "92e911c7-0756-4802-af0e-02620f7e7c2a",
+    "started_at": "2026-10-28T10:07:17Z",
+    "ended_at": "2026-10-28T10:07:17Z",
+    "status": "success",
+    "customers_read": 3,
+    "events_read": 7,
+    "events_loaded": 4,
+    "rejected": 3,
+    "duplicate_events": 1,
+    "customer_count": 3,
+    "source_fingerprint": "b62d9be0146196d56cd4b92e20038a8a6de285d27ec6fa8545f23f07589f427d",
+    "failure_reason": null
+  },
+  "warehouse": {
+    "fact_rows": 4,
+    "revenue_cents": 24946,
+    "distinct_event_ids": 4
+  },
+  "latest_run_reject_rows": 3,
+  "event_reconciliation": {
+    "input_rows": 7,
+    "loaded_rows": 4,
+    "rejected_rows": 3,
+    "balances": true
+  },
+  "by_date_status": [
+    {
+      "event_date": "2026-10-23",
+      "status": "delivered",
+      "events": 1,
+      "revenue_cents": 12000
+    },
+    {
+      "event_date": "2026-10-24",
+      "status": "placed",
+      "events": 1,
+      "revenue_cents": 3998
+    },
+    {
+      "event_date": "2026-10-25",
+      "status": "shipped",
+      "events": 1,
+      "revenue_cents": 3998
+    },
+    {
+      "event_date": "2026-10-26",
+      "status": "cancelled",
+      "events": 1,
+      "revenue_cents": 4950
+    }
+  ],
+  "assertions": {
+    "fact_keys_unique": true,
+    "all_fact_customer_keys_resolve": true,
+    "reject_count_matches_run_metric": true,
+    "all_pass": true
+  }
+}

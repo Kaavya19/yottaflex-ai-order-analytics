@@ -1,0 +1,4 @@
+customer_id,customer_name,email,country,updated_at
+C001,Asha Rao,asha@example.test,IN,2026-10-20T09:00:00Z
+C002,Noah Kim,noah@example.test,US,2026-10-20T09:00:00Z
+C003,Lea Martin,lea@example.test,FR,2026-10-20T09:00:00Z

@@ -1,0 +1,11 @@
+{
+  "run_id": "92e911c7-0756-4802-af0e-02620f7e7c2a",
+  "started_at": "2026-10-28T10:07:17Z",
+  "customers_read": 3,
+  "events_read": 7,
+  "events_loaded": 4,
+  "rejected": 3,
+  "duplicate_events": 1,
+  "customer_count": 3,
+  "elapsed_seconds": 0.168
+}

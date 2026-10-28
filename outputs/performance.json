@@ -1,0 +1,10 @@
+{
+  "generator_seed": 73,
+  "events": 100000,
+  "customers": 10000,
+  "events_loaded": 100000,
+  "rejected": 0,
+  "elapsed_seconds": 2.875,
+  "measurement_scope": "pipeline run only; excludes synthetic data generation",
+  "environment_note": "One local Windows run; timing is illustrative and machine-dependent."
+}
